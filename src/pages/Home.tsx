@@ -53,6 +53,18 @@ export default function Home() {
 
   const projects = [
     {
+      title: "Personal Job-Seeking Website",
+      time: "2026",
+      company: "Lingnan University (Individual Project)",
+      problem: "Creating a professional online presence to showcase skills and projects for job-seeking purposes.",
+      data: "Project requirements and personal career data.",
+      approach: "Developed a modern, responsive single-page application using React and Tailwind CSS. Implemented automated deployment via GitHub Actions.",
+      outcome: "Successfully deployed a professional portfolio website featuring interactive sections and project showcases.",
+      contribution: "Sole developer - responsible for design, implementation, and deployment.",
+      tags: ["React", "Tailwind CSS", "GitHub Actions", "Vite"],
+      link: "https://github.com/XueTingkun/Personal-Web"
+    },
+    {
       title: "AI Auditing Workflow Design",
       time: "2025.02 - 2025.06",
       company: "China Mobile (Zhuhai Branch)",
@@ -61,8 +73,7 @@ export default function Home() {
       approach: "Designed and deployed local AI workflows using Dify. Implemented DeepSeek-7B and Qwen2.5-VL with RAG for automated OCR auditing.",
       outcome: "Achieved significant automation in complex OCR auditing and improved overall auditing accuracy and efficiency.",
       contribution: "Led the design of the AI workflow, managed local model deployment, and integrated RAG with knowledge bases.",
-      tags: ["LLM", "Dify", "RAG", "DeepSeek", "Qwen"],
-      link: "https://github.com/XueTingkun/Personal-Web"
+      tags: ["LLM", "Dify", "RAG", "DeepSeek", "Qwen"]
     },
     {
       title: "Q-learning Dungeon Battle",
