@@ -65,16 +65,27 @@ export default function Home() {
       link: "https://github.com/XueTingkun/Personal-Web"
     },
     {
-      title: "Python Game Development",
+      title: "Q-learning Dungeon Battle",
       time: "2024",
       company: "Personal Project",
-      problem: "Creating an engaging 2D top-down shooter game with custom mechanics and AI enemy behavior.",
-      data: "Custom assets and physics-based movement logic.",
-      approach: "Developed using Python and Pygame. Implemented WASD movement, mouse-aiming, shooting mechanics, and health systems for both player and enemies.",
-      outcome: "Successfully built a functional game with collision detection, enemy AI, and interactive UI elements.",
-      contribution: "Sole developer - handled all aspects from logic implementation to UI design.",
-      tags: ["Python", "Pygame", "Game Dev", "Algorithms"],
-      link: "https://github.com/XueTingkun/Game-Dev"
+      problem: "Creating an engaging 2D top-down shooter game with custom mechanics and AI enemy behavior trained via Reinforcement Learning.",
+      data: "Custom grid-based environment (28x18) with dynamic obstacles and state-space representation.",
+      approach: "Developed using Python and Pygame. Implemented a Deep Q-Network (DQN) using PyTorch for the enemy AI, combined with rule-based chase policies. Features WASD movement and mouse-aiming.",
+      outcome: "Successfully built a functional game with real-time AI decision-making, collision detection, and a robust HP/UI system.",
+      contribution: "Sole developer - handled RL environment design, DQN training, and core game logic implementation.",
+      tags: ["Python", "Pygame", "Reinforcement Learning", "DQN", "PyTorch"],
+      link: "https://github.com/XueTingkun/Qlearning-dungeon-battle"
+    },
+    {
+      title: "Computer Vision Group Project",
+      time: "2025",
+      company: "Lingnan University (Group)",
+      problem: "Developing a robust computer vision system to solve complex image recognition or detection tasks within a collaborative environment.",
+      data: "Utilized large-scale image datasets tailored for the specific vision task, ensuring high diversity and representativeness.",
+      approach: "Collaboratively implemented state-of-the-art deep learning models (e.g., CNNs/YOLO) and optimized the processing pipeline for real-time performance.",
+      outcome: "Delivered a high-accuracy vision system with a user-friendly interface and well-documented code structure.",
+      contribution: "Acted as Product Manager to define requirements, led the UI development, and conducted comprehensive code reviews to ensure system reliability.",
+      tags: ["Computer Vision", "UI Development", "Code Review", "Product Management"]
     },
     {
       title: "Delay APP - Google Computational Thinking Competition",
