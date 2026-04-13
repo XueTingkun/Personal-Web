@@ -61,7 +61,29 @@ export default function Home() {
       approach: "Designed and deployed local AI workflows using Dify. Implemented DeepSeek-7B and Qwen2.5-VL with RAG for automated OCR auditing.",
       outcome: "Achieved significant automation in complex OCR auditing and improved overall auditing accuracy and efficiency.",
       contribution: "Led the design of the AI workflow, managed local model deployment, and integrated RAG with knowledge bases.",
-      tags: ["LLM", "Dify", "RAG", "DeepSeek", "Qwen"]
+      tags: ["LLM", "Dify", "RAG", "DeepSeek", "Qwen"],
+      link: "https://github.com/XueTingkun/Personal-Web"
+    },
+    {
+      title: "Python Game Development",
+      time: "2024",
+      company: "Personal Project",
+      problem: "Creating an engaging 2D top-down shooter game with custom mechanics and AI enemy behavior.",
+      data: "Custom assets and physics-based movement logic.",
+      approach: "Developed using Python and Pygame. Implemented WASD movement, mouse-aiming, shooting mechanics, and health systems for both player and enemies.",
+      outcome: "Successfully built a functional game with collision detection, enemy AI, and interactive UI elements.",
+      contribution: "Sole developer - handled all aspects from logic implementation to UI design.",
+      tags: ["Python", "Pygame", "Game Dev", "Algorithms"],
+      link: "https://github.com/XueTingkun/Game-Dev"
+    },
+    {
+      title: "Delay APP - Google Computational Thinking Competition",
+      time: "2024",
+      problem: "Enhancing user productivity through optimized task management and computational thinking principles.",
+      approach: "Applied computational thinking to software design and task scheduling algorithms.",
+      outcome: "Awarded National 2nd Prize in the Google & SCUT Computational Thinking Competition.",
+      contribution: "Core developer and architect of the application logic.",
+      tags: ["Python", "Algorithm", "UX Design"]
     },
     {
       title: "Baseband Processing & AI Simulation",
@@ -73,15 +95,6 @@ export default function Home() {
       outcome: "Successfully developed simulation products and validated AI algorithm feasibility on specific hardware platforms.",
       contribution: "Assisted in product testing and conducted feasibility analysis for AI on hardware.",
       tags: ["FPGA", "System Verilog", "Hardware AI", "Simulation"]
-    },
-    {
-      title: "Delay APP - Google Computational Thinking Competition",
-      time: "2024",
-      problem: "Enhancing user productivity through optimized task management and computational thinking principles.",
-      approach: "Applied computational thinking to software design and task scheduling algorithms.",
-      outcome: "Awarded National 2nd Prize in the Google & SCUT Computational Thinking Competition.",
-      contribution: "Core developer and architect of the application logic.",
-      tags: ["Python", "Algorithm", "UX Design"]
     }
   ];
 
@@ -328,7 +341,7 @@ export default function Home() {
               <p className="text-zinc-600 dark:text-zinc-400">Showcasing my work in AI, hardware, and algorithmic problem solving</p>
             </div>
             <div className="hidden sm:block">
-              <a href="https://github.com" className="text-blue-600 font-semibold flex items-center gap-2 hover:underline">
+              <a href="https://github.com/XueTingkun" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-semibold flex items-center gap-2 hover:underline">
                 View all on GitHub <ExternalLink className="w-4 h-4" />
               </a>
             </div>
@@ -351,9 +364,28 @@ export default function Home() {
                 <div className="md:w-3/5 p-8 md:p-12">
                   <div className="flex flex-wrap items-center justify-between gap-4 mb-4">
                     <span className="text-sm font-bold text-blue-600 tracking-wider uppercase">{project.company || "Competition"}</span>
-                    <span className="text-sm text-zinc-500">{project.time}</span>
+                    <div className="flex items-center gap-3">
+                      <span className="text-sm text-zinc-500">{project.time}</span>
+                      {project.link && (
+                        <a 
+                          href={project.link} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-zinc-400 hover:text-blue-600 transition-colors"
+                        >
+                          <Github className="w-4 h-4" />
+                        </a>
+                      )}
+                    </div>
                   </div>
-                  <h3 className="text-2xl font-bold mb-6 group-hover:text-blue-600 transition-colors">{project.title}</h3>
+                  {project.link ? (
+                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="group/title inline-flex items-center gap-2">
+                      <h3 className="text-2xl font-bold mb-6 group-hover:text-blue-600 transition-colors">{project.title}</h3>
+                      <ExternalLink className="w-5 h-5 mb-6 text-zinc-300 group-hover/title:text-blue-600 transition-colors" />
+                    </a>
+                  ) : (
+                    <h3 className="text-2xl font-bold mb-6">{project.title}</h3>
+                  )}
                   
                   <div className="space-y-6 text-zinc-600 dark:text-zinc-400">
                     <div>
@@ -449,10 +481,10 @@ export default function Home() {
                 </div>
                 
                 <div className="flex gap-4 pt-4">
-                  <a href="https://github.com" className="w-12 h-12 bg-zinc-900 border border-zinc-800 rounded-xl flex items-center justify-center hover:bg-zinc-800 transition-colors">
+                  <a href="https://github.com/XueTingkun" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-zinc-900 border border-zinc-800 rounded-xl flex items-center justify-center hover:bg-zinc-800 transition-colors">
                     <Github className="w-6 h-6" />
                   </a>
-                  <a href="https://linkedin.com" className="w-12 h-12 bg-zinc-900 border border-zinc-800 rounded-xl flex items-center justify-center hover:bg-zinc-800 transition-colors">
+                  <a href="https://www.linkedin.com/in/tingkun-xue" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-zinc-900 border border-zinc-800 rounded-xl flex items-center justify-center hover:bg-zinc-800 transition-colors">
                     <Linkedin className="w-6 h-6" />
                   </a>
                 </div>
