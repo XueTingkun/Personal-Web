@@ -33,7 +33,7 @@ def create_submission_word():
         "Home / Headline: Professional positioning as an AI Engineer.",
         "About Me: Educational background from Lingnan University and Hanshan Normal University.",
         "Skills: Technical, business, and tool-based skills (Python, ML, Dify, RAG, etc.).",
-        "Projects: Detailed showcases including China Mobile AI Auditing, Q-learning Dungeon Battle, and a CV Group Project.",
+        "Projects: Detailed showcases including China Mobile AI Auditing, Q-learning Dungeon Battle, and the Posture Health Reminder Device.",
         "Resume: Downloadable CV and professional highlights.",
         "Contact: Direct email and social links."
     ]

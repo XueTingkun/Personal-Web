@@ -88,15 +88,16 @@ export default function Home() {
       link: "https://github.com/XueTingkun/Qlearning-dungeon-battle"
     },
     {
-      title: "Computer Vision Group Project",
+      title: "Posture Health Reminder Device",
       time: "2025",
-      company: "Lingnan University (Group)",
-      problem: "Developing a robust computer vision system to solve complex image recognition or detection tasks within a collaborative environment.",
-      data: "Utilized large-scale image datasets tailored for the specific vision task, ensuring high diversity and representativeness.",
-      approach: "Collaboratively implemented state-of-the-art deep learning models (e.g., CNNs/YOLO) and optimized the processing pipeline for real-time performance.",
-      outcome: "Delivered a high-accuracy vision system with a user-friendly interface and well-documented code structure.",
-      contribution: "Acted as Product Manager to define requirements, led the UI development, and conducted comprehensive code reviews to ensure system reliability.",
-      tags: ["Computer Vision", "UI Development", "Code Review", "Product Management"]
+      company: "Lingnan University (Group Project)",
+      problem: "Real-time posture monitoring to detect unhealthy sitting postures and provide timely reminders for better health.",
+      data: "Custom dataset of facial landmarks and head poses, processed using MediaPipe Face Landmarker.",
+      approach: "Developed a multi-threaded system using Python, MediaPipe, and Tkinter. Implemented a double-buffer pattern for efficient frame processing and real-time posture classification.",
+      outcome: "Delivered a functional device with configurable thresholds and a complete evaluation pipeline for performance metrics.",
+      contribution: "Acted as Project Manager, led the UI development, and conducted comprehensive code reviews to ensure system reliability.",
+      tags: ["Computer Vision", "MediaPipe", "Python", "Multi-threading", "UI Design"],
+      link: "https://github.com/XueTingkun/A-posture-health-reminder-device-based-on-computer-vision"
     },
     {
       title: "Delay APP - Google Computational Thinking Competition",
