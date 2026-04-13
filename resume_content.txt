@@ -1,0 +1,102 @@
+=== PDF RESUME ===
+Tingkun Xue
+Hong Kong ·M.Sc. in AI and Business Analytics
+13802670337@139.com+86 13802670337 / +852 84955037
+EDUCATION
+Ὄ2025/09–2026/06M.Sc. in Artificial Intelligence and Business Analytics
+Lingnan UniversityHong Kong
+∠Courses: Computer Vision, Deep Learning, Big Data Analytics, Generative AI.
+Ὄ2021/09–2025/06B.Eng. in Electronic Information Engineering
+Hanshan Normal UniversityGuangdong, China
+∠Courses: Artificial Intelligence, Python, C++, ORACLE, STM32.
+PROFESSIONALEXPERIENCE
+Ὄ2025/02–2025/06Artificial Intelligence Engineer (Intern)
+China Mobile (Zhuhai Branch)Guangdong, China
+∠Designed and deployed privatized AI auditing workflows based on LLMs via Dify.
+∠Deployed DeepSeek-7B & Qwen2.5-VL locally; achieved OCR automation via RAG.
+Ὄ2024/08–2024/08Junior FPGA Engineer (Intern)
+Guangdong SeerTech Network Tech Co., Ltd.Guangzhou, China
+∠Developed and simulated baseband processing products using System Verilog.
+∠Assisted in product testing and analyzed AI algorithm implementation on
+FPGA/Chips.
+Ὄ2023/12–2023/12Pre-sales Technical Support (Intern)
+Hangzhou DPtech Technologies Co., Ltd.Hangzhou, China
+∠Supported sales team with technical solutions for enterprise clients and product de-
+mos.
+∠Translated complex technical parameters into clear business values for clients.
+HONORS& AWARDS
+∠National 2nd Prize, Google & SCUT Computational Thinking Competition
+∠3rd Prize, 19th Guangdong Youth Robotics Competition (High School Div.)
+∠1st Prize&Best Construction Award, 1st Zhuhai Youth Robotics Competition
+∠Grade A (91-100), Fintech & Business Application Program, CUHK
+CERTIFICATIONS& TRAINING
+∠Software Dev. (Advanced), Ministry of Industry and IT (MIIT)|2024
+∠Generative AI (AIGC), China Info. Industry Association (CIIT)|2024
+∠Fintech & Business App Program, CUHK|Mar 2024
+LANGUAGES& SKILLS
+Mandarin: Native (Level 2, Grade A) English: Fluent (IELTS: 7.0)
+1 of 1 Updated in 2026
+
+
+=== DOCX RESUME ===
+
+
+
+ 联系方式
+电话: +8613802670337
+Mail:13802670337@139.com
+
+
+
+ 资格证书
+雅思7.0分
+普通话二级甲等
+软件开发（高级）
+生成式人工智能工程师
+
+
+HELLO
+薛廷焜 
+个人优势
+（国家级）谷歌与华南理工大学 计算思维与编程大赛
+Delay APP 获得国家级二等奖
+（省级）第十九届广东省青少年机器人竞赛机器人创意比赛高中组：三等奖
+（市级）珠海市第一届青少年机器人大赛暨珠港澳青少年机器人横琴邀请赛：
+“聪明的机器人”项目 一等奖、“反败为胜”最佳建造奖、“反败为胜”个人自动赛二等奖
+中国工信部 软件开发（高级）证书 证书编号：T2402007A0114255 
+CIIT 生成式人工智能（AIGC）证书 证书编号：21042024050058 
+香港中文大学 Fintech and Its Business Application program
+金融科技及其商业应用 项目培训 成绩A（91-100）获优秀学员推荐信
+
+
+
+
+
+教育经历
+香港岭南大学	硕士	人工智能与商业分析
+主修课程: 计算机视觉、深度学习、 python、大数据管理、 数据可视化、机器学习、大数据分析、生成式人工智能
+                                                     	2025-2026
+
+韩山师范	学士	电子信息工程 EE主修课程: 人工智能、 python、 C++、 ORACLE STM32
+
+
+
+
+ 2021-2025
+
+
+	
+
+ 
+
+
+实习经历
+中国移动珠海分公司	人工智能工程师	2025.02-06
+核心职责：负责基于大模型的 AI 稽核工作流设计与私有化部署，通过 Dify 平台推动 AI 技术在运营商业务场景的商业化落地实习成果
+技术落地：完成 DeepSeek-7B 与 Qwen2.5-VL（多模态视觉大模型）的本地化部署，通过 RAG（检索增强生成）与知识库构建，实现复杂 OCR 稽核自动化 。
+产品贡献：独立分析业务需求并设计 AI 工作流，有效提升了项目稽核的准确率与自动化水平，完成从需求调研到技术方案交付的完整闭环 。
+核心职责：配合销售团队针对政企客户进行技术方案支撑，负责公司产品及行业解决方案的宣讲与演示 。
+客户洞察：深入挖掘客户真实场景需求，将复杂的技术参数转化为易于理解的商业价值，现场解决客户提出的技术质疑 。
+职业素养：积累了丰富的 ToB 业务沟通经验，具备敏锐的市场触觉与产品推广意识 。
+培训经历
+
